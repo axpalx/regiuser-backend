@@ -1,0 +1,40 @@
+{
+  "name": "regiuser-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axpalx/regiuser-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/axpalx/regiuser-backend/issues"
+  },
+  "homepage": "https://github.com/axpalx/regiuser-backend#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.3.0",
+    "@typescript-eslint/parser": "^4.3.0",
+    "eslint": "^7.10.0"
+  },
+  "dependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.8",
+    "@types/knex": "^0.16.1",
+    "@types/node": "^14.11.2",
+    "@types/uuid": "^8.3.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "knex": "^0.21.6",
+    "mysql": "^2.18.1",
+    "ts-node": "^9.0.0",
+    "ts-node-dev": "^1.0.0-pre.63",
+    "typescript": "^4.0.3",
+    "uuid": "^8.3.0"
+  }
+}
