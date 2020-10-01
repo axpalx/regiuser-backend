@@ -72,4 +72,16 @@ export class RegisterDatabase extends Database {
       throw new Error(error.sqlMessage || error.message);
     }
   }
+
+  public async getAllRegister(): Promise<any> {
+    try {
+      const result = await this.getConnection()
+        .select("*")
+        .from(RegisterDatabase.TABLE_NAME);
+
+      return result;
+    } catch (error) {
+      throw new Error(error.sqlMessage || error.message);
+    }
+  }
 }
